@@ -29,4 +29,9 @@ public class CalculatorTest {
     	assertEquals(6, Calculator.add("1,2,3"));
     }
 
+    @Test
+    public void testAlotOfNumbers(){
+    	assertEquals(18, Calculator.add("2,2,2,4,2,6"))
+    }
+
 }
